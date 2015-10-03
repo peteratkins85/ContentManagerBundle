@@ -1,0 +1,33 @@
+Cms\ContentManagerBundle\Entity\Countries:
+    type: entity
+    table: null
+    repositoryClass: Cms\ContentManagerBundle\Entity\CountriesRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        countryName:
+            type: string
+            length: '100'
+        isoCode3:
+            type: string
+            length: '3'
+        isoCode2:
+            type: string
+            length: '2'
+    manyToMany:
+        zones:
+            targetEntity: Zones
+            inversedBy: countries
+            joinTable:
+                name: zone_country_relations
+                joinColumns:
+                    zoneId:
+                      referencedColumnName: id
+                inverseJoinColumns:
+                    countryId:
+                      referencedColumnName: id
+    lifecycleCallbacks: {  }

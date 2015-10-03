@@ -1,0 +1,11 @@
+content_manager_homepage:
+    path:     /content
+    defaults: { _controller: content_controller:indexAction }
+
+content_manager_edit_page:
+    path:     /content/add
+    defaults: { _controller: content_controller:addAction }
+
+content_manager_add_page:
+    path:     /content/add
+    defaults: { _controller: content_controller:addAction }

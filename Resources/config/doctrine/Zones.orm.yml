@@ -1,0 +1,21 @@
+Cms\ContentManagerBundle\Entity\Zones:
+    type: entity
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        zoneName:
+            type: string
+            length: '100'
+        zoneType:
+            type: string
+            length: '20'
+    manyToMany:
+            countries:
+                targetEntity: Countries
+                mappedBy: zones
+    lifecycleCallbacks: {  }

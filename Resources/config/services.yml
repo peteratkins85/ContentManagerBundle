@@ -1,0 +1,14 @@
+parameters:
+    content_manager_entity_languages: Cms\ContentManagerBundle\Entity\Languages
+
+services:
+    content_entity:
+        class: Cms\ContentManagerBundle\Entity\Content
+    content_form:
+        class:     Cms\ContentManagerBundle\Form\ContentForm
+        arguments: [@content_entity]
+    content_controller:
+        class:     Cms\ContentManagerBundle\Controller\IndexController
+        arguments: ["@templating","@content_form"]
+#        calls:
+#              - [setContentForm, ["@content_form"]]

@@ -1,0 +1,17 @@
+Cms\ContentManagerBundle\Entity\Languages:
+    type: entity
+    table: null
+    repositoryClass: Cms\ContentManagerBundle\Entity\LanguagesRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        language:
+            type: string
+            length: '100'
+        isDefault:
+            type: integer
+    lifecycleCallbacks: {  }
