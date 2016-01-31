@@ -1,10 +1,10 @@
 <?php
 
-namespace Cms\ContentManagerBundle\Controller;
+namespace Oni\ContentManagerBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Bundle\FrameworkBundle\Templating\EngineInterface;
-use Cms\ContentManagerBundle\Form\ContentForm;
+use Oni\ContentManagerBundle\Form\ContentForm;
 
 class IndexController extends Controller
 {

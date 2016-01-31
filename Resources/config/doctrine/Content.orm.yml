@@ -1,7 +1,7 @@
-Cms\ContentManagerBundle\Entity\Content:
+Oni\ContentManagerBundle\Entity\Content:
     type: entity
     table: null
-    repositoryClass: Cms\ContentManagerBundle\Entity\ContentRepository
+    repositoryClass: Oni\ContentManagerBundle\Entity\ContentRepository
     id:
         id:
             type: integer

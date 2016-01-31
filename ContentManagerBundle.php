@@ -1,6 +1,6 @@
 <?php
 
-namespace Cms\ContentManagerBundle;
+namespace Oni\ContentManagerBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

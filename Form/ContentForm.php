@@ -1,6 +1,6 @@
 <?php
 
-namespace Cms\ContentManagerBundle\Form;
+namespace Oni\ContentManagerBundle\Form;
 
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
@@ -40,7 +40,7 @@ class ContentForm extends AbstractType
     public function setDefaultOptions(OptionsResolverInterface $resolver)
     {
         $resolver->setDefaults(array(
-            'data_class' => 'Cms\ContentManagerBundle\Entity\Content'
+            'data_class' => 'Oni\ContentManagerBundle\Entity\Content'
         ));
     }
 

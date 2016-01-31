@@ -1,6 +1,6 @@
 <?php
 
-namespace Cms\ContentManagerBundle\Entity;
+namespace Oni\ContentManagerBundle\Entity;
 
 use Doctrine\ORM\EntityRepository;
 
