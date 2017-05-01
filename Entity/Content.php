@@ -7,7 +7,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * Content
  *
- * @ORM\Table(name="Content")
+ * @ORM\Table(name="oni_content")
  * @ORM\Entity(repositoryClass="Oni\ContentManagerBundle\Entity\ContentRepository")
  */
 class Content
