@@ -1,6 +1,6 @@
 {
   "name": "oni-sys/content-manager-bundle",
-  "type": "symfony-bundle",
+  "type": "oni-bundle",
   "license": "MIT",
   "authors": [
     {
